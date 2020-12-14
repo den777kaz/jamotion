@@ -1,0 +1,141 @@
+.review {
+  position: relative;
+  z-index: 0;
+  padding: 23.4rem 0 5rem 0;
+}
+
+.review-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  position: relative;
+  z-index: 2;
+}
+.review-wrap > * + * {
+  margin-left: 5.5rem;
+}
+/* QUOTE */
+.review__item-quote {
+  position: relative;
+  width: 33.5rem;
+  border: 4px solid var(--black);
+  padding: 6.8rem 4.1rem 4.7rem 6.8rem;
+  background-color: #fff;
+
+  border-bottom: none;
+}
+.review__item-quote:before,
+.review__item-quote:after {
+  content: '';
+  position: absolute;
+}
+
+.review__item-quote:before {
+  width: 1.5rem;
+  height: 4rem;
+  border-bottom: 0.4rem solid black;
+  border-left: 0.4rem solid black;
+  top: calc(100% - 0.4rem);
+  left: -0.4rem;
+}
+.review__item-quote:after {
+  width: 28.48rem;
+  height: 4rem;
+  left: 2.6rem;
+  top: calc(100% - 0.4rem);
+
+  border-left: 0.5rem solid black;
+  border-top: 0.4rem solid black;
+
+  transform: skewX(-45deg);
+}
+.review__quoteIcon {
+  position: absolute;
+  width: 6.5rem;
+  top: 0;
+  left: 0;
+}
+.review__item-quote p {
+  font-family: 'Source Sans Pro';
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+}
+
+/* AUTHOR */
+.review__item-author {
+  display: flex;
+  align-items: center;
+  margin-left: 1.5rem;
+  margin-top: 6.5rem;
+}
+.author__avatar {
+  width: 7.7rem;
+  height: 7.7rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.author__name {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.6rem;
+}
+.author__name h4 {
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+}
+
+.author__stars {
+  display: flex;
+  margin-top: 0.54rem;
+}
+.author__stars > * + * {
+  margin-left: 0.76rem;
+}
+.author__stars img {
+  width: 1.7rem;
+}
+
+/* SPECIAL AUTHOR QUOTE */
+.special {
+  margin-right: 9rem;
+}
+.special .review__item-quote {
+  border: none;
+  width: 26.6rem;
+  border-bottom: 1px solid black;
+  padding: 0 0 0 4rem;
+  background-color: transparent;
+}
+.special .review__item-quote:after,
+.special .review__item-quote:before {
+  display: none;
+}
+.special .review__quoteIcon {
+  width: 15rem;
+  top: -12rem;
+  left: -10rem;
+}
+
+/* background graphic ellipse */
+
+.review .ellipse {
+  position: absolute;
+  width: 100rem;
+  /* height: 50rem; */
+  z-index: 1;
+  left: -36rem;
+  top: -35rem;
+}
+
+.review .btn {
+  position: relative;
+  z-index: 3;
+  display: block;
+  margin: auto;
+  margin-top: 7rem;
+}
+.special .author__avatar {
+  border: 1px solid white;
+}

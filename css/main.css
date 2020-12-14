@@ -1,0 +1,23 @@
+@import './fonts.css';
+@import './reset.css';
+@import './colors.css';
+@import './global.css';
+@import './typography.css';
+@import './components.css';
+@import './grid.css';
+
+/* Header */
+@import './header.css';
+
+/* Sections */
+@import './sections/hero.css';
+@import './sections/start.css';
+@import './sections/banner.css';
+@import './sections/review.css';
+@import './sections/check.css';
+@import './sections/tariff.css';
+@import './sections/recommend.css';
+@import './sections/game.css';
+
+/* Footer */
+@import './footer.css';

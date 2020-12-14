@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Fitness</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__wrap">
+          <menu class="header__navbar">
+            <a href="#">Startseite</a>
+            <a href="#">Leistung</a>
+            <a href="#">Kurse</a>
+            <a href="#">Über uns</a>
+            <a href="#">News</a>
+            <a href="#">Kontakt</a>
+          </menu>
+          <div class="header__logo">
+            <img src="./img/logo.svg" alt="logo" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- Hero section -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero__content">
+           
+              <h1>WILLKOMMEN IM FITMOTION FITNESSSTUDIO</h1>
+              <div class="hero__line"></div>
+              <div class="hero__contentText">
+                <p>
+                  Hallo, mein Name ist Jens Buse, ich bin Geschäftsführer des
+                  Fitnessstudio & Personal Training in Bruchsal.
+                </p>
+                <p>
+                  Basierend auf unserer Jahrelangen Expertise, haben wir ein
+                  Konzept entwickelt, dass unsere Mitglieder mit geringsten
+                  Zeitaufwand gezielter, schneller & effektiver in Höchstform
+                  bringt.
+                </p>
+                <p>Bereit durchzustarten?</p>
+              </div>
+              <button class="btn" type="button">Probetraining vereinbaren</button>
+            
+          </div>
+        </div>
+        
+        <div class="hero__graphic">
+          <img class="ellipse" src="./img/Ellipse.svg" alt="elipse" />
+          <img class="wave" src="./img/wave.svg" alt="wave" />
+          <div class="arm">
+            <!-- <img class="arm-bg" src="./img/arm-bg.svg" alt="arm" /> -->
+            <svg
+              class="arm-bg"
+              width="719"
+              height="737"
+              viewBox="0 0 719 737"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M512.187 700.5C585.387 740.1 680.02 739.667 718.187 734.5C716.853 636.667 714.187 428.7 714.187 379.5C552.687 272 466.687 412.5 460.687 417.5C349.187 338.5 265.187 405 253.687 412.5C247.687 404.1 242.853 375.667 241.187 362.5C238.853 311.167 233.587 206.3 231.187 197.5C228.787 188.7 230.187 185.5 231.187 185C240.353 183.5 260.787 178.9 269.187 172.5C277.587 166.1 282.353 169.833 283.687 172.5C284.02 174 288.387 179.7 303.187 190.5C317.987 201.3 331.02 193.333 335.687 188C349.187 172.667 379.987 138 395.187 122C410.387 106 401.52 90 395.187 84L328.187 0C276.353 23.5 169.887 72.3 158.687 79.5C119.087 87.9 111.52 109.333 112.687 119C84.1866 215 25.1867 413.1 17.1867 437.5C7.18671 468 -11.8133 571 10.1867 575C27.7867 578.2 71.8534 608.667 91.6867 623.5C226.087 744.3 428.02 725.167 512.187 700.5Z"
+              />
+            </svg>
+            <img src="./img/arm-kontur.svg" alt="arm" />
+          </div>
+          </div>
+        </div>
+        <!-- call action -->
+        <div class="call-action">
+            <!-- form -->
+          <div class="call-action__form">
+            <h2 class="call-action__title">Kontakt</h2>
+            <div class="callMe-buttons" action="">
+              <button class="callMe__btn" type="button">Rückruf vereinbarn</button>
+              <button class="callMe__btn" type="button">Probetraining vereinbaren</button>
+              <button class="callMe__btn" type="button">Ich benötige weitere Infos</button> 
+
+              <div class="callMe__info">
+                <div class="callMe__info-map">
+                  <img src="./img/map.png" alt="map">
+                </div>
+                <div class="callMe__info-contact">
+                  <ul>Tel.:
+                    <li><a href="tel:069861111">0 69 86 11 11</a></li>
+                  </ul>
+                  <ul>E-Mail:
+                    <li><a href="mailto:kontakt@finest-fit.de">kontakt@finest-fit.de</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="call-action__bg"></div>
+          <button type="button" id="do_show" class="call-action__callBtn">
+            <img  src="./img/callIcon.svg" alt=" call icon">
+          </button>
+          <button class="call-action__closeBtn">X</button>
+        </div>
+      </section>
+
+      <!-- START section -->
+      <section class="start">
+        <div class="container">
+          <div class="start-wrap">
+            <!-- leftside -->
+            <div class="start__images">
+              <div class="start__image">
+                <div class="start__icon">
+                  <img src="./img/heart-icon.svg" alt="herz" />
+                </div>
+
+                <img src="./img/start1.png" alt="hallo" />
+              </div>
+              <div class="start__image">
+                <div class="start__icon">
+                  <img src="./img/doc-icon.svg" alt="herz" />
+                </div>
+                <img src="./img/start2.png" alt="hallo" />
+              </div>
+            </div>
+            <!-- rightside -->
+            <div class="start__info">
+              <h2 class="background">
+                <span>IHR WEG ZUM</span> <span>PERSÖNLICHEN GLÜCK</span>
+              </h2>
+              <p>Starten Sie noch heute mit Ihrem Training!</p>
+              <button type="button" class="btn">
+                Probetraining vereinbaren
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- BANNER slogan -->
+      <section class="banner">
+        <img class="banner__transition-top" src="./img/blend.png" alt="sss" />
+        <img
+          class="banner__transition-bottom"
+          src="./img/blend.png"
+          alt="sss"
+        />
+        <h2 class="banner__slogan">ÜBERZEUGE DICH SELBST</h2>
+      </section>
+      <!-- Review -->
+      <section class="review">
+        <img class="ellipse" src="./img/Ellipse.svg" alt="ellipse" />
+        <div class="review-wrap">
+          <!-- item 0 special -->
+          <div class="review__item special">
+            <div class="review__item-quote">
+              <img
+                class="review__quoteIcon"
+                src="./img/quote.svg"
+                alt="quote"
+              />
+              <p>
+                hilft zuverlässig gegen Rückschmerzen. Super Fachkräfte, viele
+                Geräte, nette Leute!
+              </p>
+            </div>
+            <div class="review__item-author">
+              <div class="author__avatar">
+                <img src="./img/avatar.png" alt="avatar" />
+              </div>
+              <div class="author__name">
+                <h4>Rocker Kunze</h4>
+                <div class="author__stars">
+                  <img src="./img/star-black.svg" alt="star" />
+                  <img src="./img/star-black.svg" alt="star" />
+                  <img src="./img/star-black.svg" alt="star" />
+                  <img src="./img/star-black.svg" alt="star" />
+                  <img src="./img/star-black.svg" alt="star" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- item 1 -->
+          <div class="review__item">
+            <div class="review__item-quote">
+              <img
+                class="review__quoteIcon"
+                src="./img/quote.svg"
+                alt="quote"
+              />
+              <p>
+                hilft zuverlässig gegen Rückschmerzen. Super Fachkräfte, viele
+                Geräte, nette Leute!
+              </p>
+            </div>
+            <div class="review__item-author">
+              <div class="author__avatar">
+                <img src="./img/avatar.png" alt="avatar" />
+              </div>
+              <div class="author__name">
+                <h4>Rocker Kunze</h4>
+                <div class="author__stars">
+                  <img src="./img/star.svg" alt="star" />
+                  <img src="./img/star.svg" alt="star" />
+                  <img src="./img/star.svg" alt="star" />
+                  <img src="./img/star.svg" alt="star" />
+                  <img src="./img/star.svg" alt="star" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- item2 -->
+          <div class="review__item">
+            <div class="review__item-quote">
+              <img
+                class="review__quoteIcon"
+                src="./img/quote.svg"
+                alt="quote"
+              />
+              <p>
+                hilft zuverlässig gegen Rückschmerzen. Super Fachkräfte, viele
+                Geräte, nette Leute!
+              </p>
+            </div>
+            <div class="review__item-author">
+              <div class="author__avatar">
+                <img src="./img/avatar.png" alt="avatar" />
+              </div>
+              <div class="author__name">
+                <h4>Rocker Kunze</h4>
+                <div class="author__stars">
+                  <img src="./img/star.svg" alt="star" />
+                  <img src="./img/star.svg" alt="star" />
+                  <img src="./img/star.svg" alt="star" />
+                  <img src="./img/star.svg" alt="star" />
+                  <img src="./img/star.svg" alt="star" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- item 3 -->
+          <div class="review__item">
+            <div class="review__item-quote">
+              <img
+                class="review__quoteIcon"
+                src="./img/quote.svg"
+                alt="quote"
+              />
+              <p>
+                hilft zuverlässig gegen Rückschmerzen. Super Fachkräfte, viele
+                Geräte, nette Leute!
+              </p>
+            </div>
+            <div class="review__item-author">
+              <div class="author__avatar">
+                <img src="./img/avatar.png" alt="avatar" />
+              </div>
+              <div class="author__name">
+                <h4>Rocker Kunze</h4>
+                <div class="author__stars">
+                  <img src="./img/star.svg" alt="star" />
+                  <img src="./img/star.svg" alt="star" />
+                  <img src="./img/star.svg" alt="star" />
+                  <img src="./img/star.svg" alt="star" />
+                  <img src="./img/star.svg" alt="star" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn" type="button">Probetraining vereinbaren</button>
+      </section>
+      <!-- CHECK -->
+      <section class="check">
+        <div class="container">
+          <div class="check-wrap">
+            <div class="check__info">
+              <img src="./img/doc-icon.svg" alt="document icon" />
+              <h2 class="background">
+                <span>GESUNDHEITS-CHECK</span>
+              </h2>
+              <h3>Wieso du unseren ONLINE-TEST machen sollst:</h3>
+              <div class="check__list">
+                <div class="list__item">
+                  <svg
+                    class="checked__icon"
+                    width="15"
+                    height="12"
+                    viewBox="0 0 15 12"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M4.99997 8.58597L1.70697 5.29297L0.292969 6.70697L4.99997 11.414L14.707 1.70697L13.293 0.292969L4.99997 8.58597Z"
+                    />
+                  </svg>
+                  <p>Analyse deiner Problemzonen</p>
+                </div>
+                <div class="list__item">
+                  <svg
+                    class="checked__icon"
+                    width="15"
+                    height="12"
+                    viewBox="0 0 15 12"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M4.99997 8.58597L1.70697 5.29297L0.292969 6.70697L4.99997 11.414L14.707 1.70697L13.293 0.292969L4.99997 8.58597Z"
+                    />
+                  </svg>
+                  <p>Ermittlung deiner Ziele</p>
+                </div>
+                <div class="list__item">
+                  <svg
+                    class="checked__icon"
+                    width="15"
+                    height="12"
+                    viewBox="0 0 15 12"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M4.99997 8.58597L1.70697 5.29297L0.292969 6.70697L4.99997 11.414L14.707 1.70697L13.293 0.292969L4.99997 8.58597Z"
+                    />
+                  </svg>
+                  <p>Erstellung eines individuellen Trainingplans</p>
+                </div>
+                <div class="list__item">
+                  <svg
+                    class="checked__icon"
+                    width="15"
+                    height="12"
+                    viewBox="0 0 15 12"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M4.99997 8.58597L1.70697 5.29297L0.292969 6.70697L4.99997 11.414L14.707 1.70697L13.293 0.292969L4.99997 8.58597Z"
+                    />
+                  </svg>
+                  <p>Schnellere Erfolge</p>
+                </div>
+              </div>
+              <button class="btn" type="button">
+                Probetraining vereinbaren
+              </button>
+            </div>
+            <!-- graphic -->
+            <div class="check__graphic">
+              <img class="hex-small-first" src="./img/hex.svg" alt="hexagon" />
+              <img class="hex-small-second" src="./img/hex.svg" alt="hexagon" />
+              <div class="hexagon hex-image"></div>
+              <div class="hexagon hex-back"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- TARIFF -->
+      <section class="tariff">
+        <h2 class="background"><span>Tarif</span></h2>
+        <div class="cards">
+          <img
+            class="cards__bg"
+            src="./img/bgCard.svg"
+            alt="background graphic"
+          />
+          <!-- CARD LEFT -->
+          <div class="card card--left">
+            <div class="card__headline">
+              <h3>7 TAGE PROBETRAINING</h3>
+              <p>Teste unser Studio und alle Leistungen!</p>
+            </div>
+            <div class="card__underline"></div>
+            <div class="card__price">
+              <div>
+                <h4><span>KOSTENLOS</span></h4>
+              </div>
+            </div>
+            <div class="card__list">
+              <h5>Das erwartet dich</h5>
+              <div class="scheck__list">
+                <div class="list__item">
+                  <svg
+                    class="checked__icon"
+                    width="15"
+                    height="12"
+                    viewBox="0 0 15 12"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M4.99997 8.58597L1.70697 5.29297L0.292969 6.70697L4.99997 11.414L14.707 1.70697L13.293 0.292969L4.99997 8.58597Z"
+                    />
+                  </svg>
+                  <p>Training in unserem Studio</p>
+                </div>
+                <div class="list__item">
+                  <svg
+                    class="checked__icon"
+                    width="15"
+                    height="12"
+                    viewBox="0 0 15 12"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M4.99997 8.58597L1.70697 5.29297L0.292969 6.70697L4.99997 11.414L14.707 1.70697L13.293 0.292969L4.99997 8.58597Z"
+                    />
+                  </svg>
+                  <p>Zugang zu allen Kursangeboten</p>
+                </div>
+                <div class="list__item">
+                  <svg
+                    class="checked__icon"
+                    width="15"
+                    height="12"
+                    viewBox="0 0 15 12"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M4.99997 8.58597L1.70697 5.29297L0.292969 6.70697L4.99997 11.414L14.707 1.70697L13.293 0.292969L4.99997 8.58597Z"
+                    />
+                  </svg>
+                  <p>Zugang zum Wellness-Bereich</p>
+                </div>
+                <div class="list__item">
+                  <svg
+                    class="checked__icon"
+                    width="15"
+                    height="12"
+                    viewBox="0 0 15 12"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M4.99997 8.58597L1.70697 5.29297L0.292969 6.70697L4.99997 11.414L14.707 1.70697L13.293 0.292969L4.99997 8.58597Z"
+                    />
+                  </svg>
+                  <p>Einweisung in unsere Anlage & Geräte</p>
+                </div>
+                <div class="list__item">
+                  <svg
+                    class="checked__icon"
+                    width="15"
+                    height="12"
+                    viewBox="0 0 15 12"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M4.99997 8.58597L1.70697 5.29297L0.292969 6.70697L4.99997 11.414L14.707 1.70697L13.293 0.292969L4.99997 8.58597Z"
+                    />
+                  </svg>
+                  <p>CheckFit Angebot: 1x im Monat</p>
+                </div>
+              </div>
+            </div>
+            <div class="card__action">
+              <p class="extraText">Ebenfalls enthalten (im Wert von 299,- €)</p>
+              <button class="btn" type="button">Jetzt starten</button>
+            </div>
+          </div>
+
+          <!-- CARD CENTER -->
+          <div class="card card--center">
+            <div class="card__headline">
+              <h3>PREMIUM-FLEX MONATLICH KÜNDBAR</h3>
+              <p>Für alle die sich nicht gerne binden</p>
+            </div>
+            <div class="card__underline"></div>
+            <div class="card__price">
+              <div>
+                <h4>ab <span>39,99€ </span>/ WOCHE*</h4>
+                <p>1 MONAT MINDESTLAUFZEIT</p>
+              </div>
+            </div>
+            <div class="card__list">
+              <h5>Deine Vorteile im Überlick</h5>
+              <div class="scheck__list">
+                <div class="list__item">
+                  <svg
+                    class="checked__icon"
+                    width="15"
+                    height="12"
+                    viewBox="0 0 15 12"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M4.99997 8.58597L1.70697 5.29297L0.292969 6.70697L4.99997 11.414L14.707 1.70697L13.293 0.292969L4.99997 8.58597Z"
+                    />
+                  </svg>
+                  <p>Training in unserem Studio</p>
+                </div>
+                <div class="list__item">
+                  <svg
+                    class="checked__icon"
+                    width="15"
+                    height="12"
+                    viewBox="0 0 15 12"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M4.99997 8.58597L1.70697 5.29297L0.292969 6.70697L4.99997 11.414L14.707 1.70697L13.293 0.292969L4.99997 8.58597Z"
+                    />
+                  </svg>
+                  <p>Zugang zu allen Kursangeboten</p>
+                </div>
+                <div class="list__item">
+                  <svg
+                    class="checked__icon"
+                    width="15"
+                    height="12"
+                    viewBox="0 0 15 12"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M4.99997 8.58597L1.70697 5.29297L0.292969 6.70697L4.99997 11.414L14.707 1.70697L13.293 0.292969L4.99997 8.58597Z"
+                    />
+                  </svg>
+                  <p>Zugang zum Wellness-Bereich</p>
+                </div>
+                <div class="list__item">
+                  <svg
+                    class="checked__icon"
+                    width="15"
+                    height="12"
+                    viewBox="0 0 15 12"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M4.99997 8.58597L1.70697 5.29297L0.292969 6.70697L4.99997 11.414L14.707 1.70697L13.293 0.292969L4.99997 8.58597Z"
+                    />
+                  </svg>
+                  <p>Einweisung in unsere Anlage & Geräte</p>
+                </div>
+                <div class="list__item">
+                  <svg
+                    class="checked__icon"
+                    width="15"
+                    height="12"
+                    viewBox="0 0 15 12"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M4.99997 8.58597L1.70697 5.29297L0.292969 6.70697L4.99997 11.414L14.707 1.70697L13.293 0.292969L4.99997 8.58597Z"
+                    />
+                  </svg>
+                  <p>
+                    Firendzone Angebot: 1x im Monat gratis Training zusammen mit
+                    einem Freund
+                  </p>
+                </div>
+                <div class="list__item">
+                  <svg
+                    class="checked__icon"
+                    width="15"
+                    height="12"
+                    viewBox="0 0 15 12"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M4.99997 8.58597L1.70697 5.29297L0.292969 6.70697L4.99997 11.414L14.707 1.70697L13.293 0.292969L4.99997 8.58597Z"
+                    />
+                  </svg>
+                  <p>Trainer Angebot: 1x im Monat personal Training</p>
+                </div>
+                <div class="list__item">
+                  <svg
+                    class="checked__icon"
+                    width="15"
+                    height="12"
+                    viewBox="0 0 15 12"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M4.99997 8.58597L1.70697 5.29297L0.292969 6.70697L4.99997 11.414L14.707 1.70697L13.293 0.292969L4.99997 8.58597Z"
+                    />
+                  </svg>
+                  <p>CheckFit Angebot: 1x im Monat</p>
+                </div>
+              </div>
+            </div>
+            <div class="card__action">
+              <p class="extraText">
+                Ebenfalls enthalten (kostenlos & optional)
+              </p>
+              <button class="btn" type="button">Jetzt starten</button>
+            </div>
+            <img
+              class="card__mark"
+              src="./img/cardMark.svg"
+              alt="best seller"
+            />
+          </div>
+
+          <!-- CARD RIGHT -->
+          <div class="card card--right">
+            <div class="card__headline">
+              <h3>PREMIUM-24</h3>
+              <p>Hier sparst du richtig!</p>
+            </div>
+            <div class="card__underline"></div>
+            <div class="card__price">
+              <div>
+                <h4>ab <span>19,99€ </span>/ WOCHE*</h4>
+                <p>24 MONAT MINDESTLAUFZEIT</p>
+              </div>
+            </div>
+            <div class="card__list">
+              <h5>Das erwartet dich</h5>
+              <div class="scheck__list">
+                <div class="list__item">
+                  <svg
+                    class="checked__icon"
+                    width="15"
+                    height="12"
+                    viewBox="0 0 15 12"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M4.99997 8.58597L1.70697 5.29297L0.292969 6.70697L4.99997 11.414L14.707 1.70697L13.293 0.292969L4.99997 8.58597Z"
+                    />
+                  </svg>
+                  <p>Training in unserem Studio</p>
+                </div>
+                <div class="list__item">
+                  <svg
+                    class="checked__icon"
+                    width="15"
+                    height="12"
+                    viewBox="0 0 15 12"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M4.99997 8.58597L1.70697 5.29297L0.292969 6.70697L4.99997 11.414L14.707 1.70697L13.293 0.292969L4.99997 8.58597Z"
+                    />
+                  </svg>
+                  <p>Zugang zu allen Kursangeboten</p>
+                </div>
+                <div class="list__item">
+                  <svg
+                    class="checked__icon"
+                    width="15"
+                    height="12"
+                    viewBox="0 0 15 12"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M4.99997 8.58597L1.70697 5.29297L0.292969 6.70697L4.99997 11.414L14.707 1.70697L13.293 0.292969L4.99997 8.58597Z"
+                    />
+                  </svg>
+                  <p>Zugang zum Wellness-Bereich</p>
+                </div>
+                <div class="list__item">
+                  <svg
+                    class="checked__icon"
+                    width="15"
+                    height="12"
+                    viewBox="0 0 15 12"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M4.99997 8.58597L1.70697 5.29297L0.292969 6.70697L4.99997 11.414L14.707 1.70697L13.293 0.292969L4.99997 8.58597Z"
+                    />
+                  </svg>
+                  <p>Einweisung in unsere Anlage & Geräte</p>
+                </div>
+                <div class="list__item">
+                  <svg
+                    class="checked__icon"
+                    width="15"
+                    height="12"
+                    viewBox="0 0 15 12"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M4.99997 8.58597L1.70697 5.29297L0.292969 6.70697L4.99997 11.414L14.707 1.70697L13.293 0.292969L4.99997 8.58597Z"
+                    />
+                  </svg>
+                  <p>CheckFit Angebot: 1x im Monat</p>
+                </div>
+              </div>
+            </div>
+            <div class="card__action">
+              <p class="extraText">
+                Ebenfalls enthalten (kostenlos & optional)
+              </p>
+              <button class="btn" type="button">Jetzt starten</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- RECOMMEND -->
+      <section class="recommend">
+        <img class="recommend__icon" src="./img/heart-icon.svg" alt="hallo" />
+        <h2 class="background"><span>schon gewusst?</span></h2>
+        <p>
+          Ausdauertraining verbessert die Durchblutung in Ihrem Körper und somit
+          werden die Zellen besser mit Nährstoffen versorgt. Davon profitiert
+          auch Ihr Gehirn und gleichzeitig Ihre Konzentrationsfähigkeit.
+        </p>
+        <button class="btn" type="button">Probetraining vereinbaren</button>
+      </section>
+      <!-- WHEEL OF FORTUNE  -->
+      <section class="game">
+        <img class="banner__transition-top" src="./img/blend.png" alt="sss" />
+        <div class="container">
+          <div class="game__content">
+            <div class="game__wheel">
+              <div class="game__wheel-graphic">
+  
+              </div>
+            </div>
+            <div class="game__info">
+              <h2>Fitness Glücksrad</h2>
+              <p>Heute schon am Rad gedreht？</p>
+            </div>
+  
+            </div>
+            <div class="game__question">
+              <h2 class="game__question-title">Schon mal was gewonnen?</h2>
+                <p class="game__question-profit">
+                  <span class="profit--title">
+                    Hauptgewinn: 6 Monate kostenlose PREMIUM-Mitgliedschaft!
+                </span>
+                  Bei uns gewinnt jeder! Dreh eine Runde am Glücksrad. 
+                  <span>Aber
+                    Achtung！Du hast nur einen Versuch!</span>
+                </p>
+              </div>
+        </div>
+        
+        </div>
+      </section>
+      <!-- RECOMMEND ADVICE -->
+      <section class="recommend advice">
+        <img class="recommend__icon" src="./img/doc-icon.svg" alt="hallo" />
+        <h2 class="background">
+          <span>VEREINBARE JETZT DEIN</span> <span>BERATUNGSGESPRÄCH</span>
+        </h2>
+        <p>
+          und erfahre wie auch du dein ziel erreichst. Starte jetzt mit den
+          experten.
+        </p>
+        <button class="btn" type="button">Probetraining vereinbaren</button>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-wrap">
+          <div class="footer__contact footer__item">
+            <h5>Kontakt & Anfahrt</h5>
+            <ul>FINEST FITNESS
+              <li>Mühlheimer Straße 209</li>
+              <li>63075 Offenbach am Main</li>
+            </ul>
+            <ul>Tel.:
+              <li><a href="tel:069861111">0 69 86 11 11</a></li>
+            </ul>
+            <ul>E-Mail:
+              <li><a href="mailto:kontakt@finest-fit.de">kontakt@finest-fit.de</a></li>
+            </ul>
+          </div>
+          <div class="footer__hours footer__item">
+            <h5>Öffnungszeiten</h5>
+            <ul>Mo, Mi, Fr:
+              <li>08:00 Uhr – 22:00 Uhr</li>
+            </ul>
+
+            <ul>Di, Do:
+              <li>10:00 Uhr – 22:00 Uhr</li>
+            </ul>
+
+            <ul>Sa:
+              <li>11:00 Uhr – 18:00 Uhr</li>
+            </ul>
+
+            <ul>So:
+              <li>10:00 Uhr – 16:00 Uhr</li>
+            </ul>
+          </div>
+          <div class="footer__follow footer__item">
+            <h5>Folge uns!</h5>
+            <div class="follow_list">
+              <ul>
+                <li><a href="#"><img src="./img/facebookIcon.svg" alt="facebook"></a></li>
+                <li><a href="#"><img src="./img/instagramIcon.png" alt="instagram"></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__rights footer__item">
+            <h5>Rechtliches</h5>
+            <ul class="rights__list">
+              <li><a href="#">Datenschutz</a></li>
+              <li><a href="#">Impressum</a></li>
+              <li><a href="#">Bildrechte</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <ul>
+            <li><a href="#">Impressum</a></li>
+            <li>|</li>
+            <li><a href="#">Datenschutz</a></li>
+            <li>|</li>
+            <li><a href="#">Bildrechte</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">Copyright 2020 finest Fitness | </a></li>
+            <li>|</li>
+            <li><a href="#">Powered by fitmotion</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>

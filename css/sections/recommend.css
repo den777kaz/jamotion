@@ -1,0 +1,27 @@
+.recommend {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 5rem 0 14rem 0;
+}
+.recommend h2 {
+  text-align: center;
+}
+.recommend__icon {
+  height: 12rem;
+  margin-bottom: 3.6rem;
+}
+
+.recommend p {
+  text-align: center;
+  max-width: 122rem;
+  font-size: 2.4rem;
+  line-height: 3rem;
+  font-weight: bold;
+  margin: 1.7rem 0 5.8rem 0;
+}
+
+.advice {
+  padding: 23rem 0 16rem 0;
+}

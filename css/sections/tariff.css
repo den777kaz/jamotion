@@ -1,0 +1,77 @@
+.tariff {
+  padding: 18rem 0 5rem 0;
+  position: relative;
+}
+.cards__bg {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 50%;
+  right: 0;
+  transform: translateY(-40%);
+}
+.tariff h2 {
+  font-size: 7.2rem;
+  line-height: 8.2rem;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 4.7rem 0;
+}
+
+.card--center {
+  width: 53.6rem;
+  z-index: 2;
+  padding-bottom: 4rem;
+}
+.card--center .card__action {
+  margin: 3rem 0 0 0;
+}
+.card--center .card__price h4 span {
+  font-size: 7.2rem;
+}
+
+.card--left {
+  left: 5rem;
+}
+.card--left .card__list,
+.card--left .card__action,
+.card--left .card__headline,
+.card--left .card__price {
+  /* justify-content: left; */
+  padding-right: 3rem;
+}
+.card--right {
+  right: 5rem;
+}
+.card--right .card__list,
+.card--right .card__action,
+.card--right .card__headline,
+.card--right .card__price {
+  /* justify-content: left; */
+  padding-left: 3rem;
+}
+.card--right .card__list p,
+.card--left .card__list p {
+  width: 25rem;
+}
+.card--right .card__list svg,
+.card--left .card__list svg {
+  width: 5rem;
+}
+.card--right,
+.card--left {
+  top: 5rem;
+}
+
+/* graphic */
+.card__mark {
+  position: absolute;
+  top: -1.45rem;
+  right: -1.8rem;
+  width: 14rem;
+}
