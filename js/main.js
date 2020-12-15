@@ -33,6 +33,4 @@ document.addEventListener('DOMContentLoaded', () => {
       callModal.classList.remove('show');
     }, 400);
   }
-
-  // MUSCLEARM SVG ANIMATION
 });
